@@ -1,0 +1,40 @@
+name: SQL checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: retail_demo
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      PGDATABASE: retail_demo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Build schema, load seed data, run all analysis queries
+        run: python scripts/run_analysis.py --setup
+      - name: Data-quality view must be empty
+        run: |
+          issues=$(psql -tAc "SELECT COUNT(*) FROM retail.v_data_quality_issues")
+          echo "Data-quality issues: $issues"
+          test "$issues" -eq 0
+      - name: Results must match the committed RESULTS.md (seeded data is deterministic)
+        run: git diff --exit-code docs/RESULTS.md
