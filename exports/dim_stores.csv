@@ -1,0 +1,13 @@
+store_id,store_name,region_id,channel,opened_on,region_name
+1,Boston Downtown,1,Store,2019-04-01,Northeast
+2,Newark Plaza,1,Store,2020-09-15,Northeast
+3,Atlanta Midtown,2,Store,2018-06-01,Southeast
+4,Orlando Park,2,Store,2021-03-20,Southeast
+5,Chicago Loop,3,Store,2017-11-11,Midwest
+6,Columbus East,3,Store,2022-02-01,Midwest
+7,Dallas Uptown,4,Store,2018-08-08,Southwest
+8,Houston Galleria,4,Store,2019-10-10,Southwest
+9,Denton Square,4,Store,2023-05-05,Southwest
+10,Seattle Center,5,Store,2020-01-15,West
+11,San Diego Bay,5,Store,2021-07-07,West
+12,Online Store,5,Online,2016-01-01,West

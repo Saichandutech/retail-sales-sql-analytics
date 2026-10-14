@@ -1,0 +1,65 @@
+product_id,product_name,category_id,unit_price,unit_cost,category_name
+1,Laptops Model A,1,650.0,533.0,Laptops
+9,Monitors Model A,2,160.0,118.4,Monitors
+17,Accessories Model A,3,12.0,5.4,Accessories
+25,Audio Model A,4,35.0,20.3,Audio
+33,Networking Model A,5,40.0,24.8,Networking
+41,Storage Model A,6,55.0,37.4,Storage
+49,Office Furniture Model A,7,120.0,66.0,Office Furniture
+57,Software Model A,8,30.0,6.0,Software
+2,Laptops Model B,1,871.43,714.57,Laptops
+10,Monitors Model B,2,265.71,196.63,Monitors
+18,Accessories Model B,3,23.14,10.41,Accessories
+26,Audio Model B,4,84.29,48.89,Audio
+34,Networking Model B,5,94.29,58.46,Networking
+42,Storage Model B,6,111.43,75.77,Storage
+50,Office Furniture Model B,7,238.57,131.21,Office Furniture
+58,Software Model B,8,82.86,16.57,Software
+3,Laptops Model C,1,1092.86,896.14,Laptops
+11,Monitors Model C,2,371.43,274.86,Monitors
+19,Accessories Model C,3,34.29,15.43,Accessories
+27,Audio Model C,4,133.57,77.47,Audio
+35,Networking Model C,5,148.57,92.11,Networking
+43,Storage Model C,6,167.86,114.14,Storage
+51,Office Furniture Model C,7,357.14,196.43,Office Furniture
+59,Software Model C,8,135.71,27.14,Software
+4,Laptops Model D,1,1314.29,1077.71,Laptops
+12,Monitors Model D,2,477.14,353.09,Monitors
+20,Accessories Model D,3,45.43,20.44,Accessories
+28,Audio Model D,4,182.86,106.06,Audio
+36,Networking Model D,5,202.86,125.77,Networking
+44,Storage Model D,6,224.29,152.51,Storage
+52,Office Furniture Model D,7,475.71,261.64,Office Furniture
+60,Software Model D,8,188.57,37.71,Software
+5,Laptops Model E,1,1535.71,1259.29,Laptops
+13,Monitors Model E,2,582.86,431.31,Monitors
+21,Accessories Model E,3,56.57,25.46,Accessories
+29,Audio Model E,4,232.14,134.64,Audio
+37,Networking Model E,5,257.14,159.43,Networking
+45,Storage Model E,6,280.71,190.89,Storage
+53,Office Furniture Model E,7,594.29,326.86,Office Furniture
+61,Software Model E,8,241.43,48.29,Software
+6,Laptops Model F,1,1757.14,1440.86,Laptops
+14,Monitors Model F,2,688.57,509.54,Monitors
+22,Accessories Model F,3,67.71,30.47,Accessories
+30,Audio Model F,4,281.43,163.23,Audio
+38,Networking Model F,5,311.43,193.09,Networking
+46,Storage Model F,6,337.14,229.26,Storage
+54,Office Furniture Model F,7,712.86,392.07,Office Furniture
+62,Software Model F,8,294.29,58.86,Software
+7,Laptops Model G,1,1978.57,1622.43,Laptops
+15,Monitors Model G,2,794.29,587.77,Monitors
+23,Accessories Model G,3,78.86,35.49,Accessories
+31,Audio Model G,4,330.71,191.81,Audio
+39,Networking Model G,5,365.71,226.74,Networking
+47,Storage Model G,6,393.57,267.63,Storage
+55,Office Furniture Model G,7,831.43,457.29,Office Furniture
+63,Software Model G,8,347.14,69.43,Software
+8,Laptops Model H,1,2200.0,1804.0,Laptops
+16,Monitors Model H,2,900.0,666.0,Monitors
+24,Accessories Model H,3,90.0,40.5,Accessories
+32,Audio Model H,4,380.0,220.4,Audio
+40,Networking Model H,5,420.0,260.4,Networking
+48,Storage Model H,6,450.0,306.0,Storage
+56,Office Furniture Model H,7,950.0,522.5,Office Furniture
+64,Software Model H,8,400.0,80.0,Software
